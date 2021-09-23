@@ -41,4 +41,14 @@ Follow the same basic steps as above, but this time:
 * Use [deleteAMI.js](./deleteAMI.js)
 * Use the existing lambda Role.
 * Use the existing CloudWatch Rule.
-* 
+
+For multiple instances it is easiest to use the Tag Editor.  
+![](./docs/screenshots/12-edit-tags.png)
+
+
+
+## Notes
+
+- This is another open source project bought to you by [Webdigi - Web development, London](https://www.webdigi.co.uk/).
+- Please submit your pull requests or suggestions to improve this script.
+- You can read about updates to this project on our blog - [AWS Instance Automated AMI Creation & Deletion System](https://www.webdigi.co.uk/blog/2017/aws-instance-automated-ami-creation-deletion-system/)
