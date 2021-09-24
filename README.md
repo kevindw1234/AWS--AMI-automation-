@@ -18,7 +18,7 @@ Creating an AMI automatically snapshots all the associated EBS volumes for that 
 
 5) Scroll down to the code editor, and remove the stub code you see in the editor.
 
-6) Paste the contents of [createAMI.js](./lambda/createAMI.js) into the edit box.  
+6) Paste the contents of code  into the edit box.  
 
 7) Scroll down further and modify the *Basic Settings*.  
 Provide a description and set the timeout to 5 minutes.  
@@ -36,11 +36,6 @@ Add a trigger by selecting _CloudWatch Event_.
 
 11) Success!  
 
-12) Create a second function named deleteAMI.  
-Follow the same basic steps as above, but this time:
-* Use [deleteAMI.js](./deleteAMI.js)
-* Use the existing lambda Role.
-* Use the existing CloudWatch Rule.
 
 For multiple instances it is easiest to use the Tag Editor.  
 ![](./docs/screenshots/12-edit-tags.png)
